@@ -1,0 +1,115 @@
+h1 {
+  font-size: 80px;
+  margin-left: 5%;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+body {
+  background-color: #FFFFFF;
+  margin-right: 400px;
+  margin-left: 400px;
+}
+
+#ads {
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+
+#leftads {
+  position:fixed;
+  top: 10px;
+  bottom:10px;
+  left:5px;
+  padding:50px;
+  width:240px;
+  margin-bottom: 50q0px;
+}
+
+#rightads {
+  position:fixed;
+  top: 10px;
+  bottom:10px;
+  right:5px;
+  padding:50px;
+  width:240px;
+}
+
+#topAd {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  height: 120px;
+  top: 0;
+}
+
+#bottomAd {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  background: red;
+  height: 120px;
+  top: 80%;
+}
+
+.homeArticle {
+  background-color: #e6e6e6;
+}
+
+.homeArticle img {
+  margin-top: 20px;
+}
+
+.homeArticle h2 {
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.homeArticle h3 {
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 20px;
+}
+
+#toHome {
+  color: black;
+  text-emphasis: none; 
+  font-style: none;
+}
+
+.alert {
+  padding: 20px;
+  background-color: darkslategrey; 
+  color: white;
+  margin-bottom: 15px;
+}
+
+.alert2 {
+  padding: 20px;
+  background-color: yellow; 
+  color: white;
+  margin-bottom: 15px;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
